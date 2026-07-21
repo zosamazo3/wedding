@@ -217,22 +217,29 @@ html[lang="vi"] .names .nm{font-family:var(--serif-jp)}
 }
 
 /* 舞う花びら（元画像の花びらを使用） */
-.petals{position:absolute;inset:0;overflow:hidden;pointer-events:none}
-.petal{position:absolute;top:-5vh;width:20px;height:auto;opacity:0;
-  animation:fall var(--d,12s) linear var(--dl,0s) infinite}
-.petal img,.petal svg{width:100%;height:auto;display:block}
-@keyframes fall{
-  0%{opacity:0;transform:translate3d(0,-5vh,0) rotate(0deg)}
-  8%{opacity:.9}
-  85%{opacity:.9}
-  100%{opacity:0;transform:translate3d(9vw,104vh,0) rotate(300deg)}
+/* ---------- 舞う桜(サイト全体) ---------- */
+.petals{
+  position:fixed;inset:0;z-index:5;
+  overflow:hidden;pointer-events:none;
 }
-.petal:nth-child(1){left:8%; --d:12s;--dl:0s}
-.petal:nth-child(2){left:22%;--d:15s;--dl:4s;width:14px}
-.petal:nth-child(3){left:38%;--d:13s;--dl:8s}
-.petal:nth-child(4){left:57%;--d:16s;--dl:2s;width:16px}
-.petal:nth-child(5){left:73%;--d:12.5s;--dl:6.5s}
-.petal:nth-child(6){left:88%;--d:14s;--dl:10s;width:13px}
+.petal{
+  position:absolute;top:-8vh;width:var(--w,17px);height:auto;
+  opacity:0;will-change:transform;
+  animation:fall var(--d,15s) linear var(--dl,0s) infinite;
+}
+.petal svg{width:100%;height:auto;display:block;
+  animation:flutter calc(var(--d,15s)/5) ease-in-out var(--dl,0s) infinite}
+@keyframes fall{
+  0%{opacity:0;transform:translate3d(0,-8vh,0) rotate(0deg)}
+  6%{opacity:var(--o,.6)}
+  50%{transform:translate3d(calc(var(--dx,3vw) * 1.6),52vh,0) rotate(180deg)}
+  88%{opacity:var(--o,.6)}
+  100%{opacity:0;transform:translate3d(var(--dx,3vw),112vh,0) rotate(340deg)}
+}
+@keyframes flutter{
+  0%,100%{transform:rotateY(0deg) scaleX(1)}
+  50%{transform:rotateY(70deg) scaleX(.55)}
+}
 
 /* ---------- 水引の縦紐（区切り） ---------- */
 .cord{display:block;margin:0 auto;width:64px;height:auto;color:var(--gold)}
@@ -365,6 +372,7 @@ footer{
 
 @media (prefers-reduced-motion:reduce){
   *{animation-duration:.01ms!important;transition-duration:.01ms!important;animation-iteration-count:1!important}
+  .petals{display:none}
   .knot path{stroke-dashoffset:0}
   .petal{display:none}
   .reveal{opacity:1;transform:none}
@@ -650,6 +658,21 @@ footer{
   <button type="button" data-set-lang="vi" aria-pressed="false">Tiếng Việt</button>
 </div>
 
+<div class="petals" aria-hidden="true">
+  <span class="petal" style="left:3%;--w:17px;--d:14.5s;--dl:0s;--o:0.62;--dx:-2.5vw"><svg viewBox="0 0 14 12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+  <span class="petal" style="left:11%;--w:12px;--d:18s;--dl:3.5s;--o:0.5;--dx:3vw"><svg viewBox="0 0 14 12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+  <span class="petal" style="left:19%;--w:20px;--d:13s;--dl:7s;--o:0.7;--dx:-4vw"><svg viewBox="0 0 14 12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+  <span class="petal" style="left:27%;--w:15px;--d:16.5s;--dl:1.5s;--o:0.55;--dx:2vw"><svg viewBox="0 0 14 12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+  <span class="petal" style="left:35%;--w:22px;--d:12.5s;--dl:9s;--o:0.72;--dx:-3vw"><svg viewBox="0 0 14 12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+  <span class="petal" style="left:43%;--w:13px;--d:19s;--dl:5s;--o:0.45;--dx:4vw"><svg viewBox="0 0 14 12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+  <span class="petal" style="left:52%;--w:18px;--d:15s;--dl:2.5s;--o:0.65;--dx:-2vw"><svg viewBox="0 0 14 12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+  <span class="petal" style="left:60%;--w:16px;--d:17.5s;--dl:11s;--o:0.5;--dx:3.5vw"><svg viewBox="0 0 14 12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+  <span class="petal" style="left:68%;--w:21px;--d:13.5s;--dl:6s;--o:0.75;--dx:-3vw"><svg viewBox="0 0 14 12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+  <span class="petal" style="left:76%;--w:14px;--d:18.5s;--dl:8.5s;--o:0.48;--dx:2vw"><svg viewBox="0 0 14 12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+  <span class="petal" style="left:84%;--w:19px;--d:14s;--dl:4s;--o:0.68;--dx:-4vw"><svg viewBox="0 0 14 12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+  <span class="petal" style="left:92%;--w:16px;--d:16s;--dl:12s;--o:0.55;--dx:3vw"><svg viewBox="0 0 14 12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+</div>
+
 <header class="hero">
   <div class="hero-frame" aria-hidden="true"></div>
   <span class="cvc tl" aria-hidden="true"></span><span class="cvc tr" aria-hidden="true"></span>
@@ -676,16 +699,6 @@ footer{
     <svg class="cv-shell" viewBox="0 0 40 36" aria-hidden="true"><use href="#img-shell"/></svg>
     <p class="cv-title">WEDDING INVITATION</p>
     <p class="cv-date">2026.09.20</p>
-  </div>
-
-  <!-- 舞う花びら -->
-  <div class="petals" aria-hidden="true">
-    <span class="petal"><svg viewBox="0 0 14 12" width="14" height="12" aria-hidden="true"><use href="#img-petal"/></svg></span>
-    <span class="petal"><svg viewBox="0 0 14 12" width="14" height="12" aria-hidden="true"><use href="#img-petal"/></svg></span>
-    <span class="petal"><svg viewBox="0 0 14 12" width="14" height="12" aria-hidden="true"><use href="#img-petal"/></svg></span>
-    <span class="petal"><svg viewBox="0 0 14 12" width="14" height="12" aria-hidden="true"><use href="#img-petal"/></svg></span>
-    <span class="petal"><svg viewBox="0 0 14 12" width="14" height="12" aria-hidden="true"><use href="#img-petal"/></svg></span>
-    <span class="petal"><svg viewBox="0 0 14 12" width="14" height="12" aria-hidden="true"><use href="#img-petal"/></svg></span>
   </div>
 
   <p class="scroll-hint">SCROLL</p>
