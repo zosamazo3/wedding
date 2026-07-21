@@ -1,0 +1,986 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>長谷川 涼太 × ブイ・ティ・ラン・アン ｜ Wedding Invitation</title>
+<meta name="description" content="長谷川 涼太 & ブイ・ティ・ラン・アン の結婚式へのご招待 / Thiệp mời lễ thành hôn">
+<meta property="og:title" content="Ryota & Lan Anh — Wedding Invitation">
+<meta property="og:description" content="20.09.2026 ｜ Hải Phòng">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300&family=Shippori+Mincho+B1:wght@400;500;600&family=Zen+Kaku+Gothic+New:wght@300;400;500&display=swap" rel="stylesheet">
+<style>
+:root{
+  --paper:#F7F3EC;
+  --paper-2:#EDE6D6;
+  --sand:#D4C4A1;
+  --bronze:#BCA889;
+  --gold:#A9884E;
+  --gold-lt:#D8BE86;
+  --ink:#4A4236;
+  --ink-soft:#7A705F;
+  --serif-latin:"Cormorant Garamond",serif;
+  --serif-jp:"Shippori Mincho B1",serif;
+  --sans-jp:"Zen Kaku Gothic New",sans-serif;
+}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{
+  margin:0;
+  background:
+    radial-gradient(120% 60% at 50% 0%,#FBF8F2 0%,var(--paper) 45%,var(--paper-2) 100%) fixed;
+  color:var(--ink);
+  font-family:var(--serif-jp);
+  font-size:16px;
+  line-height:1.9;
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+body::before{
+  content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opacity:.35;
+  background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='140' height='140'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.85' numOctaves='3'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='140' height='140' filter='url(%23n)' opacity='.5'/%3E%3C/svg%3E");
+  mix-blend-mode:multiply;
+}
+main,header,footer{position:relative;z-index:1}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+img{-webkit-user-drag:none}
+
+/* ---------- 言語切替 ---------- */
+.lang-switch{
+  position:fixed;top:14px;right:14px;z-index:40;
+  display:flex;gap:2px;padding:3px;border-radius:999px;
+  background:rgba(247,243,236,.82);backdrop-filter:blur(8px);
+  border:1px solid var(--sand);box-shadow:0 4px 18px rgba(120,100,60,.12);
+}
+.lang-switch button{
+  font-family:var(--sans-jp);font-size:11px;letter-spacing:.12em;
+  border:0;background:none;color:var(--ink-soft);
+  padding:6px 13px;border-radius:999px;cursor:pointer;transition:.25s;
+}
+.lang-switch button[aria-pressed="true"]{background:var(--gold);color:#fff}
+
+[data-lang]{display:none}
+html[lang="ja"] [data-lang="ja"],
+html[lang="vi"] [data-lang="vi"]{display:revert}
+
+/* ---------- レイアウト ---------- */
+.wrap{max-width:660px;margin:0 auto;padding:0 22px}
+section{padding:78px 0;position:relative}
+.eyebrow{
+  font-family:var(--sans-jp);font-size:11px;letter-spacing:.34em;
+  color:var(--bronze);text-transform:uppercase;text-align:center;margin:0 0 26px;
+}
+h2{
+  font-family:var(--serif-jp);font-weight:500;font-size:clamp(19px,4.4vw,23px);
+  letter-spacing:.16em;text-align:center;margin:0 0 34px;color:var(--gold);
+}
+html[lang="vi"] body{font-family:var(--serif-latin);font-size:17.5px}
+html[lang="vi"] h2{font-family:var(--serif-latin);font-weight:500;letter-spacing:.1em;font-size:clamp(22px,5vw,27px)}
+
+/* ---------- ヒーロー ---------- */
+.hero{
+  min-height:100svh;display:flex;flex-direction:column;justify-content:center;
+  align-items:center;text-align:center;padding:70px 18px 76px;position:relative;
+}
+/* ===== 表紙(背景と一続きの全面デザイン) ===== */
+.cover{
+  position:relative;z-index:2;
+  width:min(620px,100%);
+  text-align:center;
+}
+/* 几帳面の角飾り(画面の枠に合わせて) */
+.cvc{position:absolute;width:27px;height:27px;pointer-events:none;z-index:3}
+.cvc::before,.cvc::after{content:"";position:absolute;border:1px solid rgba(169,136,78,.55)}
+.cvc::before{width:15px;height:15px}
+.cvc::after{width:7px;height:7px}
+.cvc.tl{top:9px;left:9px}.cvc.tl::before{top:0;left:0;border-right:0;border-bottom:0}.cvc.tl::after{top:11px;left:11px;border-right:0;border-bottom:0}
+.cvc.tr{top:9px;right:9px}.cvc.tr::before{top:0;right:0;border-left:0;border-bottom:0}.cvc.tr::after{top:11px;right:11px;border-left:0;border-bottom:0}
+.cvc.bl{bottom:9px;left:9px}.cvc.bl::before{bottom:0;left:0;border-right:0;border-top:0}.cvc.bl::after{bottom:11px;left:11px;border-right:0;border-top:0}
+.cvc.br{bottom:9px;right:9px}.cvc.br::before{bottom:0;right:0;border-left:0;border-top:0}.cvc.br::after{bottom:11px;right:11px;border-left:0;border-top:0}
+/* 装飾は画面の四隅へ(端は自然に見切れる) */
+.cv-deco{position:absolute;pointer-events:none}
+.cv-drum{left:max(-100px,-14vw);bottom:11%;width:min(380px,52vw);color:#A88D57;opacity:.4;z-index:0}
+.cv-cloud{right:-12px;bottom:6%;width:min(230px,34vw);color:var(--gold-lt);opacity:.5;z-index:0}
+.cv-lotus{left:-18px;bottom:-14px;width:min(400px,56vw);z-index:1}
+.cv-sakura{top:-10px;right:-16px;width:min(340px,46vw);z-index:1}
+/* 吊り紐(枠上端から水引まで・高さはJSで自動調整) */
+.cv-hang{position:absolute;top:17px;left:50%;transform:translateX(-50%);display:flex;gap:7px;z-index:2;pointer-events:none}
+.cv-hang span{display:block;width:2px;height:100%;background:linear-gradient(var(--gold-lt),var(--gold))}
+.cv-knot{position:relative;width:158px;height:auto;margin:0 auto;display:block;z-index:2}
+/* 名前まわり */
+.cv-names{position:relative;z-index:2;margin:34px 0 0;display:flex;flex-direction:column;align-items:center;font-weight:500}
+.cv-names .nm{
+  font-family:var(--serif-jp);
+  font-size:clamp(25px,6.4vw,34px);letter-spacing:.3em;text-indent:.3em;
+  line-height:1.35;color:var(--gold);
+}
+.cv-names .nm-ro{
+  font-family:var(--serif-latin);font-weight:500;
+  font-size:12.5px;letter-spacing:.4em;text-indent:.4em;color:var(--ink-soft);
+  margin-top:4px;
+}
+.cv-fl{width:17px;height:17px;color:var(--gold);margin:20px 0 22px}
+.cv-shell{position:relative;z-index:2;width:32px;height:auto;color:var(--gold);margin:36px auto 12px;display:block}
+.cv-title{
+  position:relative;z-index:2;
+  font-family:var(--serif-latin);font-weight:500;
+  font-size:15px;letter-spacing:.42em;text-indent:.42em;color:var(--gold);margin:0;
+}
+.cv-date{
+  position:relative;z-index:2;
+  font-family:var(--serif-latin);letter-spacing:.32em;text-indent:.32em;
+  font-size:15px;color:var(--ink-soft);margin:10px 0 0;
+}
+@media (max-width:640px){
+  .cv-knot{width:134px}
+  .cv-sakura{width:min(250px,58vw)}
+  .cv-lotus{width:min(300px,68vw);bottom:-10px}
+  .cv-drum{width:min(280px,62vw);bottom:14%}
+  .cv-cloud{width:150px;bottom:4%}
+}
+.hero-frame{position:absolute;inset:16px;border:1px solid var(--sand);pointer-events:none}
+.hero-frame::after{content:"";position:absolute;inset:7px;border:1px solid rgba(188,168,137,.45)}
+.corner{position:absolute;width:54px;height:54px;color:var(--sand);opacity:.9;pointer-events:none}
+.corner.tl{top:22px;left:22px}
+.corner.tr{top:22px;right:22px;transform:scaleX(-1)}
+.corner.bl{bottom:22px;left:22px;transform:scaleY(-1)}
+.corner.br{bottom:22px;right:22px;transform:scale(-1)}
+
+/* 桜の枝（画像どおり右上） */
+.sakura-branch{
+  position:absolute;top:0;right:0;width:min(290px,56vw);height:auto;
+  transform:scaleX(-1);
+  pointer-events:none;user-select:none;
+}
+.seigaiha{position:absolute;pointer-events:none;color:var(--sand);opacity:.28}
+.seigaiha.a{right:-30px;top:22%;width:220px}
+.seigaiha.b{left:-46px;bottom:14%;width:190px;opacity:.2}
+
+/* ドンソン銅鼓の透かし（画像どおり左下） */
+.emblem{
+  position:absolute;left:min(-40px,-6vw);bottom:12%;
+  width:min(400px,80vw);height:auto;color:var(--bronze);opacity:.15;pointer-events:none;
+}
+
+.hero .kicker{
+  font-family:var(--serif-latin);letter-spacing:.42em;font-size:12px;
+  color:var(--bronze);margin:0 0 6px;padding-left:.42em;position:relative;
+}
+.hero .kicker-sub{font-size:12px;letter-spacing:.28em;color:var(--ink-soft);margin:0 0 26px;position:relative}
+
+.knot-hang{position:absolute;top:17px;left:50%;transform:translateX(-50%);display:flex;gap:7px;pointer-events:none}
+.knot-hang span{display:block;width:1.6px;background:linear-gradient(var(--gold-lt),var(--gold));}
+.knot{width:min(190px,48vw);height:auto;display:block;margin:2px auto 26px;position:relative}
+.knot path{
+  fill:none;stroke:url(#goldGrad);stroke-width:5.2;stroke-linecap:round;
+  stroke-dasharray:1400;stroke-dashoffset:1400;
+  animation:draw 3.4s cubic-bezier(.5,0,.2,1) .35s forwards;
+}
+.knot .thread{stroke:rgba(255,255,255,.55);stroke-width:1.2;stroke-dashoffset:1400;
+  animation:draw 3.4s cubic-bezier(.5,0,.2,1) .5s forwards}
+@keyframes draw{to{stroke-dashoffset:0}}
+
+.names{position:relative;display:flex;flex-direction:column;align-items:center;gap:2px}
+.names .nm{
+  font-family:var(--serif-jp);font-weight:500;
+  font-size:clamp(26px,7vw,40px);letter-spacing:.26em;text-indent:.26em;
+  line-height:1.35;color:var(--gold);
+}
+.names .nm-ro{
+  font-family:var(--serif-latin);font-size:12px;letter-spacing:.42em;text-indent:.42em;
+  color:var(--ink-soft);margin-bottom:6px;
+}
+.names .amp{width:34px;height:auto;margin:10px 0 14px}
+html[lang="vi"] .names .nm{font-family:var(--serif-jp)}
+.hero-shell{width:34px;height:auto;color:var(--gold);margin:26px auto 10px;display:block}
+
+/* 蓮（画像どおり左下へ） */
+.lotus-hero{
+  position:absolute;left:-4px;bottom:26px;
+  width:min(330px,62vw);height:auto;display:block;
+  pointer-events:none;user-select:none;
+}
+
+.hero-date{
+  font-family:var(--serif-latin);letter-spacing:.5em;font-size:15px;
+  color:var(--ink-soft);margin-top:10px;padding-left:.5em;position:relative;
+}
+.scroll-hint{
+  position:absolute;bottom:34px;left:50%;transform:translateX(-50%);
+  font-family:var(--sans-jp);font-size:9.5px;letter-spacing:.3em;color:var(--bronze);
+}
+.scroll-hint::after{
+  content:"";display:block;width:1px;height:34px;margin:10px auto 0;
+  background:linear-gradient(var(--bronze),transparent);
+}
+
+/* 舞う花びら（元画像の花びらを使用） */
+.petals{position:absolute;inset:0;overflow:hidden;pointer-events:none}
+.petal{position:absolute;top:-5vh;width:20px;height:auto;opacity:0;
+  animation:fall var(--d,12s) linear var(--dl,0s) infinite}
+.petal img,.petal svg{width:100%;height:auto;display:block}
+@keyframes fall{
+  0%{opacity:0;transform:translate3d(0,-5vh,0) rotate(0deg)}
+  8%{opacity:.9}
+  85%{opacity:.9}
+  100%{opacity:0;transform:translate3d(9vw,104vh,0) rotate(300deg)}
+}
+.petal:nth-child(1){left:8%; --d:12s;--dl:0s}
+.petal:nth-child(2){left:22%;--d:15s;--dl:4s;width:14px}
+.petal:nth-child(3){left:38%;--d:13s;--dl:8s}
+.petal:nth-child(4){left:57%;--d:16s;--dl:2s;width:16px}
+.petal:nth-child(5){left:73%;--d:12.5s;--dl:6.5s}
+.petal:nth-child(6){left:88%;--d:14s;--dl:10s;width:13px}
+
+/* ---------- 水引の縦紐（区切り） ---------- */
+.cord{display:block;margin:0 auto;width:64px;height:auto;color:var(--gold)}
+
+/* ---------- あいさつ ---------- */
+.greeting{text-align:center}
+.greeting p{margin:0 0 1.1em;color:var(--ink)}
+.greeting .sig{
+  margin-top:34px;font-family:var(--serif-latin);font-size:20px;
+  letter-spacing:.08em;color:var(--gold);
+}
+.role{
+  display:block;font-family:var(--sans-jp);font-size:10.5px;
+  letter-spacing:.3em;color:var(--bronze);margin-bottom:2px;
+}
+.sprig{width:96px;height:auto;display:block;margin:36px auto 0}
+
+/* ---------- 詳細 ---------- */
+.card{
+  background:linear-gradient(180deg,rgba(255,255,255,.72),rgba(255,255,255,.42));
+  border:1px solid var(--sand);padding:34px clamp(20px,5vw,40px);
+  position:relative;
+}
+.card::before,.card::after{
+  content:"";position:absolute;width:12px;height:12px;border:1px solid var(--gold);opacity:.6;
+}
+.card::before{top:-1px;left:-1px;border-width:1px 0 0 1px}
+.card::after{bottom:-1px;right:-1px;border-width:0 1px 1px 0}
+
+.detail{display:grid;grid-template-columns:26px 1fr;gap:14px 16px;padding:19px 0;
+  border-bottom:1px dashed rgba(188,168,137,.5)}
+.detail:last-child{border-bottom:0;padding-bottom:0}
+.detail:first-child{padding-top:0}
+.detail svg{width:22px;height:22px;color:var(--gold);margin-top:5px}
+.detail dt{
+  font-family:var(--sans-jp);font-size:10.5px;letter-spacing:.26em;
+  color:var(--bronze);margin-bottom:5px;
+}
+.detail dd{margin:0;line-height:1.75}
+.detail .big{font-size:19px;letter-spacing:.06em;color:var(--ink)}
+.detail .note{font-size:13px;color:var(--ink-soft)}
+.map-link{
+  display:inline-block;margin-top:14px;font-family:var(--sans-jp);
+  font-size:11.5px;letter-spacing:.18em;color:var(--gold);
+  border:1px solid var(--sand);padding:9px 20px;text-decoration:none;transition:.3s;
+}
+.map-link:hover{background:var(--gold);color:#fff;border-color:var(--gold)}
+
+/* 風景（相対配置の器＋元画像の切り抜きを重ねる） */
+.scene{position:relative;margin:34px auto 0}
+.scene > svg{width:100%;height:auto;display:block}
+.scene .ov{position:absolute;pointer-events:none;user-select:none;height:auto}
+
+.lakescape{width:min(430px,92vw)}
+.lakescape .lake-lotus{right:-4%;bottom:-2%;width:36%}
+
+/* ---------- RSVP(金枠のカード仕立て) ---------- */
+.rsvp{text-align:center}
+.rsvp-card{
+  position:relative;overflow:hidden;
+  border:1px solid rgba(169,136,78,.55);
+  padding:54px 34px 50px;
+  background:
+    radial-gradient(120% 90% at 50% 0%, rgba(252,248,240,.85), rgba(248,242,230,.35) 60%, rgba(248,242,230,0) 100%);
+}
+.rsvp-inner{position:relative;z-index:2}
+.rsvp-shell{width:30px;height:auto;color:var(--gold);display:block;margin:0 auto 16px}
+.rsvp-title{
+  display:flex;justify-content:center;align-items:baseline;gap:12px;
+  margin:0;color:var(--gold);font-weight:500;letter-spacing:0;
+}
+.rsvp-title .latin{font-family:var(--serif-latin);font-size:25px;letter-spacing:.3em;text-indent:.3em}
+.rsvp-title .word{font-family:var(--serif-jp);font-size:19px;letter-spacing:.24em}
+html[lang="vi"] .rsvp-title .word{font-family:var(--serif-latin);letter-spacing:.12em;font-size:21px}
+.rsvp-sep{font-family:var(--serif-latin);font-weight:300;color:var(--gold-lt)}
+.orn{display:flex;align-items:center;justify-content:center;gap:12px;color:var(--gold);margin:16px 0 28px}
+.orn::before,.orn::after{content:"";height:1px;width:58px}
+.orn::before{background:linear-gradient(90deg,transparent,var(--gold))}
+.orn::after{background:linear-gradient(90deg,var(--gold),transparent)}
+.orn svg{width:13px;height:13px}
+.rsvp .deadline{
+  font-family:var(--serif-jp);font-size:13px;letter-spacing:.14em;
+  color:var(--ink-soft);margin:0 0 30px;
+}
+html[lang="vi"] .rsvp .deadline{font-family:var(--serif-latin);letter-spacing:.06em;font-size:14.5px}
+.btn{
+  display:inline-block;padding:14px 54px;background:transparent;color:var(--gold);
+  font-family:var(--serif-jp);font-size:13px;letter-spacing:.3em;text-indent:.3em;
+  text-decoration:none;transition:.35s;border:1px solid var(--gold);
+}
+.btn:hover,.btn:focus-visible{background:var(--gold);color:#FBF8F2}
+html[lang="vi"] .btn{font-family:var(--serif-latin);letter-spacing:.18em;text-indent:.18em;font-size:14px}
+.contact{margin:30px 0 0;font-size:13px;color:var(--ink-soft);line-height:2.15;letter-spacing:.06em}
+.contact a{
+  font-family:var(--serif-latin);font-size:15px;letter-spacing:.12em;
+  color:var(--gold);text-decoration:none;border-bottom:1px solid var(--gold-lt);
+  padding-bottom:1px;transition:.3s;
+}
+.contact a:hover{color:var(--ink);border-color:var(--gold)}
+.rsvp-corner-lotus{
+  position:absolute;right:-30px;bottom:-24px;width:190px;height:auto;
+  opacity:.9;pointer-events:none;z-index:1;
+}
+@media (max-width:520px){
+  .rsvp-card{padding:44px 20px 76px}
+  .rsvp-corner-lotus{width:118px;right:-24px;bottom:-26px;opacity:.85}
+}
+
+/* ---------- 結び（富士と鳥居／桜・蓮は元画像） ---------- */
+.closing{text-align:center;padding-bottom:34px}
+.fujiscape{width:min(480px,94vw);margin-bottom:34px}
+.fujiscape .sk-r{right:-2%;bottom:-3%;width:34%;transform:rotate(6deg)}
+.fujiscape .sk-l{left:-1%;bottom:-1%;width:23%;transform:scaleX(-1) rotate(-4deg)}
+.fujiscape .lo-l{left:13%;bottom:-2%;width:30%}
+.seal{width:92px;height:92px;margin:0 auto;display:block;filter:drop-shadow(0 3px 8px rgba(120,90,40,.28))}
+
+footer{
+  text-align:center;padding:44px 22px 56px;
+  font-family:var(--sans-jp);font-size:10px;letter-spacing:.26em;color:var(--bronze);
+}
+
+/* ---------- 出現アニメーション ---------- */
+.reveal{opacity:0;transform:translateY(22px);transition:opacity 1s ease,transform 1s cubic-bezier(.2,.7,.3,1)}
+.reveal.in{opacity:1;transform:none}
+
+@media (prefers-reduced-motion:reduce){
+  *{animation-duration:.01ms!important;transition-duration:.01ms!important;animation-iteration-count:1!important}
+  .knot path{stroke-dashoffset:0}
+  .petal{display:none}
+  .reveal{opacity:1;transform:none}
+  html{scroll-behavior:auto}
+}
+@media (max-width:520px){
+  .seigaiha.a{width:150px;right:-40px}
+  .emblem{top:42%}
+}
+</style>
+</head>
+<body>
+
+<!-- ======= 共有 defs ======= -->
+<svg width="0" height="0" aria-hidden="true" style="position:absolute">
+  <defs>
+    <linearGradient id="goldGrad" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C9A961"/>
+      <stop offset="35%" stop-color="#8F7238"/>
+      <stop offset="65%" stop-color="#E3CD97"/>
+      <stop offset="100%" stop-color="#A9884E"/>
+    </linearGradient>
+    <filter id="wc" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency=".9" numOctaves="2" result="t"/>
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="2.6"/>
+    </filter>
+    <filter id="wcSoft" x="-20%" y="-20%" width="140%" height="140%">
+      <feTurbulence type="fractalNoise" baseFrequency=".55" numOctaves="2" result="t"/>
+      <feDisplacementMap in="SourceGraphic" in2="t" scale="4"/>
+      <feGaussianBlur stdDeviation=".35"/>
+    </filter>
+    <!-- RSVPカードの金線の蓮 -->
+    <g id="loGoldLine" fill="none" stroke="url(#goldGrad)" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M0 0 C 9 -6, 12 -26, 0 -42 C -12 -26, -9 -6, 0 0 Z"/>
+      <path d="M-9 -3 C -20 -8, -24 -22, -19 -33 C -10 -28, -6 -18, -6 -10"/>
+      <path d="M9 -3 C 20 -8, 24 -22, 19 -33 C 10 -28, 6 -18, 6 -10"/>
+      <path d="M-19 -1 C -30 -3, -36 -12, -36 -20"/>
+      <path d="M19 -1 C 30 -3, 36 -12, 36 -20"/>
+    </g>
+
+    <!-- ===== 画像アセットの代替(インラインSVG・水彩風) ===== -->
+    <!-- 花びら1枚 -->
+    <g id="img-petal">
+      <path d="M7 .8 C 10.8 2, 13.4 5.6, 11 9.4 C 8.6 12.4, 3.4 11.6, 1.4 8 C -.4 4.4, 3.2 1.2, 7 .8 Z" fill="#F2CDD5"/>
+      <path d="M7 2.6 C 9.6 3.4, 11.4 5.8, 9.8 8.4" fill="none" stroke="#E3A8B7" stroke-width=".7" opacity=".7"/>
+    </g>
+    <!-- 桜一輪 -->
+    <g id="img-blossom">
+      <g fill="#F3CBD4">
+        <ellipse cx="0" cy="-7.6" rx="4.4" ry="6.2"/>
+        <ellipse cx="7.2" cy="-2.3" rx="4.4" ry="6.2" transform="rotate(72)"/>
+        <ellipse cx="4.5" cy="6.2" rx="4.4" ry="6.2" transform="rotate(144)"/>
+        <ellipse cx="-4.5" cy="6.2" rx="4.4" ry="6.2" transform="rotate(216)"/>
+        <ellipse cx="-7.2" cy="-2.3" rx="4.4" ry="6.2" transform="rotate(288)"/>
+      </g>
+      <circle r="2" fill="#E2A5B3"/>
+      <g stroke="#D68FA0" stroke-width=".8" stroke-linecap="round">
+        <path d="M0 0 L0 -3.8 M0 0 L3.6 1.1 M0 0 L-3.6 1.1 M0 0 L2.2 -3 M0 0 L-2.2 -3"/>
+      </g>
+    </g>
+    <!-- 桜の花房(sakura-cluster.png の代替) -->
+    <g id="img-sakura-cluster">
+      <g filter="url(#wc)">
+        <path d="M10 80 C 32 64, 54 48, 84 28" stroke="#8A7358" stroke-width="4" fill="none" stroke-linecap="round"/>
+        <path d="M46 54 C 55 48, 61 40, 64 31" stroke="#8A7358" stroke-width="2.4" fill="none" stroke-linecap="round"/>
+      </g>
+      <use href="#img-blossom" transform="translate(41,52) scale(1.2)"/>
+      <use href="#img-blossom" transform="translate(67,30) rotate(18)"/>
+      <use href="#img-blossom" transform="translate(86,45) scale(.85) rotate(-14)"/>
+      <circle cx="59" cy="63" r="4.2" fill="#EFBFCB"/>
+      <use href="#img-petal" transform="translate(18,62) rotate(24) scale(.9)"/>
+    </g>
+    <!-- 桜の枝(sakura-branch.png の代替・左上から垂れる) -->
+    <g id="img-sakura-branch">
+      <g fill="none" stroke="#8A7358" stroke-linecap="round" filter="url(#wc)">
+        <path d="M4 2 C 42 32, 72 64, 96 102 C 114 130, 126 158, 132 192" stroke-width="6"/>
+        <path d="M60 54 C 82 62, 98 76, 106 94" stroke-width="3.2"/>
+        <path d="M96 102 C 118 106, 136 118, 146 136" stroke-width="2.8"/>
+        <path d="M38 32 C 52 35, 63 43, 69 54" stroke-width="2.4"/>
+      </g>
+      <use href="#img-blossom" transform="translate(70,56) scale(1.25) rotate(-10)"/>
+      <use href="#img-blossom" transform="translate(108,96) scale(1.35)"/>
+      <use href="#img-blossom" transform="translate(148,138) scale(1.15) rotate(22)"/>
+      <use href="#img-blossom" transform="translate(131,194) scale(1.05) rotate(-18)"/>
+      <use href="#img-blossom" transform="translate(52,36) scale(.9) rotate(30)"/>
+      <use href="#img-blossom" transform="translate(90,78) scale(.8) rotate(12)"/>
+      <circle cx="120" cy="120" r="4.6" fill="#EFBFCB"/>
+      <circle cx="150" cy="170" r="4" fill="#F2CDD5"/>
+      <use href="#img-petal" transform="translate(168,150) rotate(35)"/>
+      <use href="#img-petal" transform="translate(110,208) rotate(-20) scale(.85)"/>
+      <use href="#img-petal" transform="translate(178,110) rotate(60) scale(.8)"/>
+    </g>
+    <!-- 貝(扇)モチーフ -->
+    <g id="img-shell" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round">
+      <path d="M20 30 C 6 26, 4 12, 12 6 C 15 12, 18 14, 20 15 C 22 14, 25 12, 28 6 C 36 12, 34 26, 20 30 Z"/>
+      <path d="M20 30 L 20 12 M20 30 L 12 14 M20 30 L 28 14"/>
+      <path d="M14 33 L 26 33"/>
+    </g>
+    <!-- 蓮(lotus.png の代替) -->
+    <g id="img-lotus">
+      <g filter="url(#wcSoft)">
+        <ellipse cx="92" cy="146" rx="70" ry="19" fill="#A9B49B" opacity=".6"/>
+        <ellipse cx="240" cy="151" rx="84" ry="21" fill="#95A085" opacity=".55"/>
+        <ellipse cx="322" cy="140" rx="40" ry="12" fill="#A9B49B" opacity=".45"/>
+      </g>
+      <g fill="none" stroke="#8C987D" stroke-linecap="round">
+        <path d="M92 146 C 84 122, 84 104, 92 88" stroke-width="3"/>
+        <path d="M198 150 C 196 118, 198 92, 206 68" stroke-width="3.6"/>
+        <path d="M292 146 C 295 131, 295 120, 291 108" stroke-width="2.6"/>
+      </g>
+      <g transform="translate(206,70)" filter="url(#wcSoft)">
+        <path d="M0 0 C -36 -6, -44 -34, -31 -50 C -17 -38, -6 -20, 0 0 Z" fill="#EDBAC5"/>
+        <path d="M0 0 C 36 -6, 44 -34, 31 -50 C 17 -38, 6 -20, 0 0 Z" fill="#EDBAC5"/>
+        <path d="M0 2 C -23 -12, -25 -44, -8 -60 C 2 -44, 4 -20, 0 2 Z" fill="#F4CCD5"/>
+        <path d="M0 2 C 23 -12, 25 -44, 8 -60 C -2 -44, -4 -20, 0 2 Z" fill="#F4CCD5"/>
+        <path d="M0 4 C -10 -18, -8 -48, 0 -64 C 8 -48, 10 -18, 0 4 Z" fill="#FADFE5"/>
+        <ellipse cx="0" cy="-4" rx="8" ry="5" fill="#E8C76E"/>
+      </g>
+      <g transform="translate(92,86)" filter="url(#wcSoft)">
+        <path d="M0 6 C -14 -2, -14 -24, 0 -34 C 14 -24, 14 -2, 0 6 Z" fill="#F1C5CE"/>
+        <path d="M0 6 C -6 -4, -6 -24, 0 -32 C 6 -24, 6 -4, 0 6 Z" fill="#F8D9DE"/>
+      </g>
+      <g transform="translate(291,108) scale(.68)" filter="url(#wcSoft)">
+        <path d="M0 6 C -14 -2, -14 -24, 0 -34 C 14 -24, 14 -2, 0 6 Z" fill="#EDC0CA"/>
+        <path d="M0 6 C -6 -4, -6 -24, 0 -32 C 6 -24, 6 -4, 0 6 Z" fill="#F6D5DB"/>
+      </g>
+    </g>
+    <!-- ドンソン銅鼓(表紙左下の透かし) -->
+    <g id="cv-drum" fill="none" stroke="currentColor">
+      <circle r="140" stroke-width="1.4"/>
+      <circle r="132" stroke-width=".8"/>
+      <circle r="122" stroke-width=".8"/>
+      <g transform="rotate(0) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(20) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(40) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(60) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(80) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(100) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(120) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(140) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(160) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(180) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(200) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(220) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(240) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(260) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(280) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(300) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(320) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g><g transform="rotate(340) translate(0,-113)"><path d="M0 -4 L0 2 M-3 -1 L3 -1 M0 2 L-2.6 6 M0 2 L2.6 6 M-1.6 -6 a1.6 1.6 0 1 0 3.2 0 a1.6 1.6 0 1 0 -3.2 0" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round"/></g>
+      <circle r="103" stroke-width=".8"/>
+      <circle r="95" stroke-width="5" stroke-dasharray="4 5"/>
+      <circle r="86" stroke-width=".8"/>
+      <circle transform="rotate(0) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(12) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(24) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(36) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(48) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(60) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(72) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(84) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(96) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(108) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(120) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(132) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(144) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(156) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(168) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(180) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(192) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(204) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(216) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(228) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(240) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(252) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(264) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(276) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(288) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(300) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(312) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(324) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(336) translate(0,-78)" r="1.6" fill="currentColor"/><circle transform="rotate(348) translate(0,-78)" r="1.6" fill="currentColor"/>
+      <circle r="70" stroke-width=".8"/>
+      <circle r="60" stroke-width="4" stroke-dasharray="9 6"/>
+      <circle r="50" stroke-width=".8"/>
+      <path transform="rotate(15)" d="M0 -46 L0 -37" stroke="currentColor" stroke-width="1.4"/><path transform="rotate(45)" d="M0 -46 L0 -37" stroke="currentColor" stroke-width="1.4"/><path transform="rotate(75)" d="M0 -46 L0 -37" stroke="currentColor" stroke-width="1.4"/><path transform="rotate(105)" d="M0 -46 L0 -37" stroke="currentColor" stroke-width="1.4"/><path transform="rotate(135)" d="M0 -46 L0 -37" stroke="currentColor" stroke-width="1.4"/><path transform="rotate(165)" d="M0 -46 L0 -37" stroke="currentColor" stroke-width="1.4"/><path transform="rotate(195)" d="M0 -46 L0 -37" stroke="currentColor" stroke-width="1.4"/><path transform="rotate(225)" d="M0 -46 L0 -37" stroke="currentColor" stroke-width="1.4"/><path transform="rotate(255)" d="M0 -46 L0 -37" stroke="currentColor" stroke-width="1.4"/><path transform="rotate(285)" d="M0 -46 L0 -37" stroke="currentColor" stroke-width="1.4"/><path transform="rotate(315)" d="M0 -46 L0 -37" stroke="currentColor" stroke-width="1.4"/><path transform="rotate(345)" d="M0 -46 L0 -37" stroke="currentColor" stroke-width="1.4"/>
+      <path d="M0.0 -34.0 L3.9 -14.5 L17.0 -29.4 L10.6 -10.6 L29.4 -17.0 L14.5 -3.9 L34.0 0.0 L14.5 3.9 L29.4 17.0 L10.6 10.6 L17.0 29.4 L3.9 14.5 L0.0 34.0 L-3.9 14.5 L-17.0 29.4 L-10.6 10.6 L-29.4 17.0 L-14.5 3.9 L-34.0 0.0 L-14.5 -3.9 L-29.4 -17.0 L-10.6 -10.6 L-17.0 -29.4 L-3.9 -14.5 Z" fill="currentColor" stroke="none"/>
+    </g>
+    <!-- 水引(三本紐のあわじ結び) -->
+    <g id="cv-knot" fill="none" stroke-linecap="round">
+      <g transform="translate(100,52) rotate(0)"><ellipse rx="31" ry="27" stroke="#8F7136" stroke-width="9" opacity=".9"/><ellipse rx="27.8" ry="23.8" stroke="#D3B26C" stroke-width="2.3"/><ellipse rx="31" ry="27" stroke="#B99447" stroke-width="2.3"/><ellipse rx="34.2" ry="30.2" stroke="#D3B26C" stroke-width="2.3"/></g>
+      <g transform="translate(66,84) rotate(-18)"><ellipse rx="31" ry="27" stroke="#8F7136" stroke-width="9" opacity=".9"/><ellipse rx="27.8" ry="23.8" stroke="#D3B26C" stroke-width="2.3"/><ellipse rx="31" ry="27" stroke="#B99447" stroke-width="2.3"/><ellipse rx="34.2" ry="30.2" stroke="#D3B26C" stroke-width="2.3"/></g>
+      <g transform="translate(134,84) rotate(18)"><ellipse rx="31" ry="27" stroke="#8F7136" stroke-width="9" opacity=".9"/><ellipse rx="27.8" ry="23.8" stroke="#D3B26C" stroke-width="2.3"/><ellipse rx="31" ry="27" stroke="#B99447" stroke-width="2.3"/><ellipse rx="34.2" ry="30.2" stroke="#D3B26C" stroke-width="2.3"/></g>
+      <path d="M80 106 C 72 118, 68 124, 60 136" stroke="#8F7136" stroke-width="9" opacity=".9"/><path d="M77 106 C 69 118, 65 124, 57 136" stroke="#D3B26C" stroke-width="2.3"/><path d="M80 106 C 72 118, 68 124, 60 136" stroke="#B99447" stroke-width="2.3"/><path d="M83 106 C 75 118, 71 124, 63 136" stroke="#D3B26C" stroke-width="2.3"/>
+      <path d="M120 106 C 128 118, 132 124, 140 136" stroke="#8F7136" stroke-width="9" opacity=".9"/><path d="M117 106 C 125 118, 129 124, 137 136" stroke="#D3B26C" stroke-width="2.3"/><path d="M120 106 C 128 118, 132 124, 140 136" stroke="#B99447" stroke-width="2.3"/><path d="M123 106 C 131 118, 135 124, 143 136" stroke="#D3B26C" stroke-width="2.3"/>
+      <g transform="translate(100,52) rotate(0)"><ellipse rx="31" ry="27" stroke="#8F7136" stroke-width="0"/><ellipse rx="27.8" ry="23.8" stroke="#D3B26C" stroke-width="2.3"/><ellipse rx="31" ry="27" stroke="#B99447" stroke-width="2.3"/><ellipse rx="34.2" ry="30.2" stroke="#D3B26C" stroke-width="2.3"/></g>
+    </g>
+    <!-- 花の区切り(❀) -->
+    <g id="cv-flower" fill="currentColor">
+      <circle cx="0" cy="-5.2" r="2.5"/><circle cx="4.9" cy="-1.6" r="2.5"/><circle cx="3" cy="4.2" r="2.5"/>
+      <circle cx="-3" cy="4.2" r="2.5"/><circle cx="-4.9" cy="-1.6" r="2.5"/>
+      <circle cx="0" cy="0" r="1.5" fill="none" stroke="currentColor" stroke-width="1"/>
+    </g>
+    <!-- 瑞雲(右下の金の雲) -->
+    <g id="cv-cloud" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round">
+      <path d="M8 44 C 8 28, 26 24, 33 32 C 36 18, 56 16, 60 30 C 71 21, 86 30, 82 44"/>
+      <path d="M18 55 C 36 48, 66 48, 88 55"/>
+      <path d="M98 40 a 9 9 0 1 1 9 9"/>
+      <path d="M30 66 C 44 61, 62 61, 76 66"/>
+    </g>
+    <!-- 表紙の桜(右上・水彩風) -->
+    <g id="cv-sakura">
+      <g fill="none" stroke="#8A6A4F" stroke-linecap="round" filter="url(#wc)">
+        <path d="M318 6 C 276 40, 240 74, 208 116 C 190 140, 176 166, 168 196" stroke-width="6.5"/>
+        <path d="M252 62 C 232 76, 218 94, 212 114" stroke-width="3.6"/>
+        <path d="M208 116 C 188 122, 172 134, 164 150" stroke-width="3.2"/>
+        <path d="M286 34 C 274 52, 268 66, 268 82" stroke-width="3.2"/>
+        <path d="M230 92 C 244 98, 254 108, 258 122" stroke-width="2.6"/>
+      </g>
+      <use href="#cv-blossom" transform="translate(268,84) scale(1.5)"/>
+      <use href="#cv-blossom" transform="translate(214,116) scale(1.65) rotate(-12)"/>
+      <use href="#cv-blossom" transform="translate(258,126) scale(1.35) rotate(24)"/>
+      <use href="#cv-blossom" transform="translate(168,152) scale(1.4) rotate(10)"/>
+      <use href="#cv-blossom" transform="translate(292,40) scale(1.2) rotate(-24)"/>
+      <use href="#cv-blossom" transform="translate(240,66) scale(1.1) rotate(40)"/>
+      <use href="#cv-blossom" transform="translate(170,196) scale(1.2) rotate(-30)"/>
+      <g fill="#EFB9C7">
+        <circle cx="196" cy="140" r="5"/><circle cx="284" cy="62" r="4.4"/><circle cx="230" cy="150" r="4"/>
+      </g>
+      <use href="#img-petal" transform="translate(200,232) rotate(35) scale(1.1)"/>
+      <use href="#img-petal" transform="translate(252,196) rotate(-15) scale(.95)"/>
+      <use href="#img-petal" transform="translate(160,246) rotate(60) scale(.85)"/>
+    </g>
+    <g id="cv-blossom">
+      <g fill="url(#pgPetal)" stroke="#E4A7B7" stroke-width=".5">
+        <ellipse cx="0" cy="-7.4" rx="4.5" ry="6.3"/>
+        <ellipse cx="7" cy="-2.3" rx="4.5" ry="6.3" transform="rotate(72)"/>
+        <ellipse cx="4.4" cy="6" rx="4.5" ry="6.3" transform="rotate(144)"/>
+        <ellipse cx="-4.4" cy="6" rx="4.5" ry="6.3" transform="rotate(216)"/>
+        <ellipse cx="-7" cy="-2.3" rx="4.5" ry="6.3" transform="rotate(288)"/>
+      </g>
+      <g fill="#D9A24E">
+        <circle cx="0" cy="-3.4" r=".8"/><circle cx="3.2" cy="1" r=".8"/><circle cx="-3.2" cy="1" r=".8"/>
+        <circle cx="1.8" cy="-1.4" r=".7"/><circle cx="-1.8" cy="-1.4" r=".7"/>
+      </g>
+    </g>
+    <!-- 表紙の蓮(左下・水彩風) -->
+    <g id="cv-lotus">
+      <g filter="url(#wcSoft)">
+        <g transform="translate(100,232)">
+          <ellipse rx="92" ry="31" fill="#ADB89D" opacity=".8"/>
+          <g stroke="#8C987D" stroke-width="1" opacity=".7" fill="none">
+            <path d="M0 -6 L -66 -18 M0 -6 L -78 6 M0 -6 L -40 24 M0 -6 L 30 27 M0 -6 L 72 14 M0 -6 L 62 -20 M0 -6 L 8 -28"/>
+          </g>
+        </g>
+        <g transform="translate(262,248)">
+          <ellipse rx="96" ry="27" fill="#97A285" opacity=".75"/>
+          <g stroke="#7E8A6E" stroke-width="1" opacity=".6" fill="none">
+            <path d="M0 -5 L -70 -12 M0 -5 L -50 18 M0 -5 L 20 22 M0 -5 L 78 8 M0 -5 L 60 -16"/>
+          </g>
+        </g>
+        <ellipse cx="24" cy="196" rx="42" ry="16" fill="#B4BEA4" opacity=".55"/>
+      </g>
+      <g fill="none" stroke="#8C987D" stroke-linecap="round">
+        <path d="M92 210 C 84 186, 84 166, 92 148" stroke-width="3.4"/>
+        <path d="M182 226 C 180 196, 182 172, 190 150" stroke-width="4"/>
+        <path d="M282 232 C 286 214, 286 200, 281 186" stroke-width="3"/>
+        <path d="M38 194 C 34 178, 35 166, 40 154" stroke-width="2.6"/>
+      </g>
+      <g transform="translate(190,152)" filter="url(#wcSoft)">
+        <path d="M0 0 C -42 -6, -52 -38, -37 -58 C -20 -44, -7 -22, 0 0 Z" fill="url(#pgLotus)"/>
+        <path d="M0 0 C 42 -6, 52 -38, 37 -58 C 20 -44, 7 -22, 0 0 Z" fill="url(#pgLotus)"/>
+        <path d="M0 2 C -27 -14, -30 -52, -10 -70 C 2 -52, 5 -24, 0 2 Z" fill="#F5CFD8"/>
+        <path d="M0 2 C 27 -14, 30 -52, 10 -70 C -2 -52, -5 -24, 0 2 Z" fill="#F5CFD8"/>
+        <path d="M0 4 C -12 -22, -10 -56, 0 -76 C 10 -56, 12 -22, 0 4 Z" fill="#FBE7EC"/>
+        <ellipse cx="0" cy="-6" rx="10" ry="6.4" fill="#E4BE62"/>
+        <g fill="#C79B3F"><circle cx="-4" cy="-7" r="1.1"/><circle cx="0" cy="-5" r="1.1"/><circle cx="4" cy="-7" r="1.1"/><circle cx="0" cy="-9" r="1.1"/></g>
+      </g>
+      <g transform="translate(92,150) scale(.78)" filter="url(#wcSoft)" opacity=".95">
+        <path d="M0 0 C -40 -6, -50 -36, -35 -55 C -19 -42, -7 -21, 0 0 Z" fill="#F8DCE2"/>
+        <path d="M0 0 C 40 -6, 50 -36, 35 -55 C 19 -42, 7 -21, 0 0 Z" fill="#F8DCE2"/>
+        <path d="M0 2 C -25 -13, -28 -49, -9 -66 C 2 -49, 5 -22, 0 2 Z" fill="#FBE7EC"/>
+        <path d="M0 2 C 25 -13, 28 -49, 9 -66 C -2 -49, -5 -22, 0 2 Z" fill="#FBE7EC"/>
+        <path d="M0 4 C -11 -20, -9 -52, 0 -70 C 9 -52, 11 -20, 0 4 Z" fill="#FEF3F5"/>
+        <ellipse cx="0" cy="-5" rx="8" ry="5" fill="#EACB74"/>
+      </g>
+      <g transform="translate(282,188)" filter="url(#wcSoft)">
+        <path d="M0 6 C -15 -2, -15 -26, 0 -37 C 15 -26, 15 -2, 0 6 Z" fill="#F1C5CE"/>
+        <path d="M0 6 C -6.5 -4, -6.5 -26, 0 -34 C 6.5 -26, 6.5 -4, 0 6 Z" fill="#F8D9DE"/>
+      </g>
+      <g transform="translate(40,156) scale(.62)" filter="url(#wcSoft)">
+        <path d="M0 6 C -15 -2, -15 -26, 0 -37 C 15 -26, 15 -2, 0 6 Z" fill="#EDC0CA"/>
+        <path d="M0 6 C -6.5 -4, -6.5 -26, 0 -34 C 6.5 -26, 6.5 -4, 0 6 Z" fill="#F6D5DB"/>
+      </g>
+    </g>
+    <radialGradient id="pgPetal" cx="50%" cy="22%" r="90%">
+      <stop offset="0%" stop-color="#FCEEF1"/><stop offset="65%" stop-color="#F4CBD5"/><stop offset="100%" stop-color="#E7A6B8"/>
+    </radialGradient>
+    <linearGradient id="pgLotus" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#E8A9BB"/><stop offset="55%" stop-color="#F4CDD7"/><stop offset="100%" stop-color="#FBEAEE"/>
+    </linearGradient>
+    <!-- 桜の花房(グラデーション版) -->
+    <g id="cv-sakura-cluster">
+      <g fill="none" stroke="#8A6A4F" stroke-linecap="round" filter="url(#wc)">
+        <path d="M8 82 C 32 64, 56 46, 88 26" stroke-width="4.2"/>
+        <path d="M48 52 C 57 46, 63 38, 66 29" stroke-width="2.3"/>
+      </g>
+      <use href="#cv-blossom" transform="translate(42,50) scale(1.5)"/>
+      <use href="#cv-blossom" transform="translate(70,28) scale(1.25) rotate(18)"/>
+      <use href="#cv-blossom" transform="translate(88,46) scale(1.05) rotate(-14)"/>
+      <circle cx="60" cy="62" r="4.6" fill="#EFB9C7"/>
+      <use href="#img-petal" transform="translate(16,64) rotate(24)"/>
+    </g>
+    <linearGradient id="fujiGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#A9B1C3"/><stop offset="1" stop-color="#DCDFE7"/>
+    </linearGradient>
+    <linearGradient id="waterFade" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#C7B285" stop-opacity="0"/>
+      <stop offset=".18" stop-color="#C7B285"/>
+      <stop offset=".82" stop-color="#C7B285"/>
+      <stop offset="1" stop-color="#C7B285" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+</svg>
+
+<div class="lang-switch" role="group" aria-label="Language / 言語">
+  <button type="button" data-set-lang="ja" aria-pressed="true">日本語</button>
+  <button type="button" data-set-lang="vi" aria-pressed="false">Tiếng Việt</button>
+</div>
+
+<header class="hero">
+  <div class="hero-frame" aria-hidden="true"></div>
+  <span class="cvc tl" aria-hidden="true"></span><span class="cvc tr" aria-hidden="true"></span>
+  <span class="cvc bl" aria-hidden="true"></span><span class="cvc br" aria-hidden="true"></span>
+
+  <svg class="cv-deco cv-drum" viewBox="-150 -150 300 300" aria-hidden="true"><use href="#cv-drum"/></svg>
+  <svg class="cv-deco cv-cloud" viewBox="0 0 120 80" aria-hidden="true"><use href="#cv-cloud"/></svg>
+  <svg class="cv-deco cv-lotus" viewBox="0 0 360 270" aria-hidden="true"><use href="#cv-lotus"/></svg>
+  <svg class="cv-deco cv-sakura" viewBox="0 0 320 280" aria-hidden="true"><use href="#cv-sakura"/></svg>
+
+  <div class="cv-hang" aria-hidden="true"><span></span><span></span></div>
+
+  <div class="cover">
+    <svg class="cv-knot" viewBox="0 0 200 150" role="img" aria-label="水引 / Dây kết mizuhiki"><use href="#cv-knot"/></svg>
+
+    <h1 class="cv-names">
+      <span class="nm">長谷川 涼太</span>
+      <span class="nm-ro">HASEGAWA RYOTA</span>
+      <svg class="cv-fl" viewBox="-9 -9 18 18" aria-hidden="true"><use href="#cv-flower"/></svg>
+      <span class="nm">ブイティ ランアン</span>
+      <span class="nm-ro">BUI THI LAN ANH</span>
+    </h1>
+
+    <svg class="cv-shell" viewBox="0 0 40 36" aria-hidden="true"><use href="#img-shell"/></svg>
+    <p class="cv-title">WEDDING INVITATION</p>
+    <p class="cv-date">2026.09.20</p>
+  </div>
+
+  <!-- 舞う花びら -->
+  <div class="petals" aria-hidden="true">
+    <span class="petal"><svg viewBox="0 0 14 12" width="14" height="12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+    <span class="petal"><svg viewBox="0 0 14 12" width="14" height="12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+    <span class="petal"><svg viewBox="0 0 14 12" width="14" height="12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+    <span class="petal"><svg viewBox="0 0 14 12" width="14" height="12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+    <span class="petal"><svg viewBox="0 0 14 12" width="14" height="12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+    <span class="petal"><svg viewBox="0 0 14 12" width="14" height="12" aria-hidden="true"><use href="#img-petal"/></svg></span>
+  </div>
+
+  <p class="scroll-hint">SCROLL</p>
+</header>
+
+<main>
+
+<section class="wrap greeting">
+  <svg class="cord" viewBox="0 0 40 120" fill="none" stroke="currentColor" aria-hidden="true">
+    <path d="M20 0v46" stroke-width="1.2"/>
+    <circle cx="20" cy="56" r="9.5" stroke-width="2"/>
+    <circle cx="20" cy="56" r="4.5" stroke-width="1.2"/>
+    <path d="M20 66v10" stroke-width="1.2"/>
+    <path d="M13 76h14l-2 30q-5 6-10 0z" stroke-width="1.2"/>
+    <path d="M16 82v22M20 82v24M24 82v22" stroke-width=".8"/>
+  </svg>
+
+  <h2 data-lang="ja">謹んでご招待申し上げます</h2>
+  <h2 data-lang="vi">Trân trọng kính mời</h2>
+
+  <div data-lang="ja">
+    <p>皆さまにはご健勝のこととお慶び申し上げます</p>
+    <p>このたび 私たちは結婚式を挙げることとなりました</p>
+    <p>ベトナムと日本 二つの故郷で育った私たちが<br>ひとつの家族になる日を<br>大切な皆さまと過ごせましたら幸いです</p>
+    <p>ご多用のところ恐縮ではございますが<br>ぜひご出席くださいますようお願い申し上げます</p>
+  </div>
+  <div data-lang="vi">
+    <p>Kính chúc Quý vị luôn mạnh khỏe và an vui.</p>
+    <p>Chúng tôi trân trọng kính mời Quý vị đến tham dự<br>Lễ Thành Hôn của chúng tôi.</p>
+    <p>Hai chúng tôi lớn lên ở hai quê hương — Nhật Bản và Việt Nam —<br>và nay trở thành một gia đình.</p>
+    <p>Sự hiện diện của Quý vị là niềm vinh hạnh lớn lao đối với chúng tôi.</p>
+  </div>
+
+  <p class="sig">
+    <span class="role" data-lang="ja">新郎</span>
+    <span class="role" data-lang="vi">Chú rể</span>
+    <span data-lang="ja">長谷川 涼太</span><span data-lang="vi">Hasegawa Ryota</span><br>
+    <span class="role" data-lang="ja" style="margin-top:14px">新婦</span>
+    <span class="role" data-lang="vi" style="margin-top:14px">Cô dâu</span>
+    <span data-lang="ja">ブイ・ティ・ラン・アン</span><span data-lang="vi">Bùi Thị Lan Anh</span>
+  </p>
+
+  <!-- 桜の花房（元画像より） -->
+  <svg class="sprig" viewBox="0 0 100 90" width="100" height="90" aria-hidden="true"><use href="#img-sakura-cluster"/></svg>
+</section>
+
+<section class="wrap">
+  <p class="eyebrow">Details</p>
+  <h2 data-lang="ja">挙式・披露宴のご案内</h2>
+  <h2 data-lang="vi">Thông tin buổi lễ</h2>
+
+  <div class="card">
+    <dl style="margin:0">
+      <div class="detail">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+          <rect x="3" y="5" width="18" height="16" rx="1"/><path d="M3 10h18M8 3v4M16 3v4"/>
+        </svg>
+        <div>
+          <dt data-lang="ja">日時</dt><dt data-lang="vi">Ngày tổ chức</dt>
+          <dd>
+            <span class="big" data-lang="ja">2026年9月20日（日）</span>
+            <span class="big" data-lang="vi">Chủ Nhật, 20.09.2026</span>
+            <div class="note" data-lang="vi">(Ngày 20 tháng 09 năm 2026)</div>
+          </dd>
+        </div>
+      </div>
+
+      <div class="detail">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+          <path d="M12 21s7-6.3 7-11a7 7 0 1 0-14 0c0 4.7 7 11 7 11z"/><circle cx="12" cy="10" r="2.6"/>
+        </svg>
+        <div>
+          <dt data-lang="ja">会場</dt><dt data-lang="vi">Địa điểm</dt>
+          <dd>
+            <span class="big" data-lang="ja">新婦宅</span>
+            <span class="big" data-lang="vi">Tư gia nhà gái</span>
+            <div class="note" data-lang="ja">ベトナム・ハイフォン市</div>
+            <div class="note" data-lang="vi">Hải Phòng, Việt Nam</div>
+            <a class="map-link" href="https://www.google.com/maps/search/?api=1&query=H%E1%BA%A3i+Ph%C3%B2ng%2C+Vi%E1%BB%87t+Nam" target="_blank" rel="noopener">
+              <span data-lang="ja">地図を開く</span><span data-lang="vi">Xem bản đồ</span>
+            </a>
+          </dd>
+        </div>
+      </div>
+
+      <div class="detail">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.2" aria-hidden="true">
+          <path d="M9 3l3 2 3-2 4 3-2.5 3V21h-9V9L5 6z"/>
+        </svg>
+        <div>
+          <dt data-lang="ja">服装</dt><dt data-lang="vi">Trang phục</dt>
+          <dd>
+            <span class="big" data-lang="ja">スマートエレガント</span>
+            <span class="big" data-lang="vi">Trang nhã</span>
+            <div class="note" data-lang="ja">ベトナムの伝統衣装も歓迎いたします</div>
+            <div class="note" data-lang="vi">(Quý khách có thể mặc trang phục truyền thống Việt Nam nếu muốn.)</div>
+          </dd>
+        </div>
+      </div>
+    </dl>
+  </div>
+
+  <!-- 西湖と塔の風景（岸辺の蓮は元画像の切り抜き） -->
+  <div class="scene lakescape">
+    <svg viewBox="0 0 440 176" role="img" aria-label="湖畔の塔 / Tháp bên hồ">
+      <!-- 霞 -->
+      <g fill="#EDE6D3" opacity=".55">
+        <ellipse cx="150" cy="132" rx="132" ry="10"/>
+        <ellipse cx="298" cy="144" rx="118" ry="9"/>
+      </g>
+      <!-- 岸の茂み -->
+      <g filter="url(#wcSoft)">
+        <ellipse cx="98" cy="128" rx="35" ry="12" fill="#B3C0A2" opacity=".8"/>
+        <ellipse cx="208" cy="130" rx="38" ry="11" fill="#BFCBAD" opacity=".75"/>
+        <ellipse cx="142" cy="120" rx="22" ry="10" fill="#A3B292" opacity=".8"/>
+      </g>
+      <!-- 五重塔 -->
+      <g filter="url(#wc)">
+        <rect x="136.0" y="117" width="44.1" height="11" fill="#F0E8D5" stroke="#9A8467" stroke-width="1"/>
+        <rect x="155.8" y="119.5" width="4.4" height="6" fill="#C7A85F" opacity=".9"/>
+        <path d="M120.0 128 Q 158 119.5 196.0 128 L 191.0 122.5 Q 158 115.5 125.0 122.5 Z" fill="#8A7156"/>
+        <path d="M120.0 128 q -3.5 -2.5 -4.5 -6 M196.0 128 q 3.5 -2.5 4.5 -6" stroke="#8A7156" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <rect x="140.0" y="101" width="36.0" height="11" fill="#F0E8D5" stroke="#9A8467" stroke-width="1"/>
+        <rect x="155.8" y="103.5" width="4.4" height="6" fill="#C7A85F" opacity=".9"/>
+        <path d="M127.0 112 Q 158 103.5 189.0 112 L 184.0 106.5 Q 158 99.5 132.0 106.5 Z" fill="#8A7156"/>
+        <path d="M127.0 112 q -3.5 -2.5 -4.5 -6 M189.0 112 q 3.5 -2.5 4.5 -6" stroke="#8A7156" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <rect x="143.8" y="85" width="28.4" height="11" fill="#F0E8D5" stroke="#9A8467" stroke-width="1"/>
+        <rect x="155.8" y="87.5" width="4.4" height="6" fill="#C7A85F" opacity=".9"/>
+        <path d="M133.5 96 Q 158 87.5 182.5 96 L 177.5 90.5 Q 158 83.5 138.5 90.5 Z" fill="#8A7156"/>
+        <path d="M133.5 96 q -3.5 -2.5 -4.5 -6 M182.5 96 q 3.5 -2.5 4.5 -6" stroke="#8A7156" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <rect x="147.3" y="70" width="21.5" height="11" fill="#F0E8D5" stroke="#9A8467" stroke-width="1"/>
+        <rect x="155.8" y="72.5" width="4.4" height="6" fill="#C7A85F" opacity=".9"/>
+        <path d="M139.5 81 Q 158 72.5 176.5 81 L 171.5 75.5 Q 158 68.5 144.5 75.5 Z" fill="#8A7156"/>
+        <path d="M139.5 81 q -3.5 -2.5 -4.5 -6 M176.5 81 q 3.5 -2.5 4.5 -6" stroke="#8A7156" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <rect x="150.5" y="56" width="15.1" height="11" fill="#F0E8D5" stroke="#9A8467" stroke-width="1"/>
+        <rect x="155.8" y="58.5" width="4.4" height="6" fill="#C7A85F" opacity=".9"/>
+        <path d="M145.0 67 Q 158 58.5 171.0 67 L 166.0 61.5 Q 158 54.5 150.0 61.5 Z" fill="#8A7156"/>
+        <path d="M145.0 67 q -3.5 -2.5 -4.5 -6 M171.0 67 q 3.5 -2.5 4.5 -6" stroke="#8A7156" stroke-width="2" fill="none" stroke-linecap="round"/>
+        <path d="M158 56 v-13 m-4 4.5 h8 m-7 4 h6" stroke="#8A7156" stroke-width="1.6" fill="none" stroke-linecap="round"/>
+        <circle cx="158" cy="41" r="1.8" fill="#C7A85F"/>
+      </g>
+      <!-- 水面 -->
+      <g fill="none" stroke-linecap="round">
+        <path d="M40 146 H400" stroke="url(#waterFade)" stroke-width="1"/>
+        <path d="M92 156 H352" stroke="url(#waterFade)" stroke-width="1" opacity=".7"/>
+        <path d="M142 165 H302" stroke="url(#waterFade)" stroke-width="1" opacity=".45"/>
+        <path d="M186 151 h24 M240 160 h18" stroke="#C9AB6E" stroke-width="1.1" opacity=".75"/>
+      </g>
+    </svg>
+    <svg class="ov lake-lotus" viewBox="0 0 360 270" width="360" height="270" aria-hidden="true"><use href="#cv-lotus"/></svg>
+  </div>
+</section>
+
+<section class="wrap rsvp">
+  <div class="rsvp-card">
+    <span class="cvc tl" aria-hidden="true"></span><span class="cvc tr" aria-hidden="true"></span>
+    <span class="cvc bl" aria-hidden="true"></span><span class="cvc br" aria-hidden="true"></span>
+    <svg class="rsvp-corner-lotus" viewBox="0 0 360 270" aria-hidden="true"><use href="#cv-lotus"/></svg>
+
+    <div class="rsvp-inner">
+      <svg class="rsvp-shell" viewBox="0 0 40 36" aria-hidden="true"><use href="#img-shell"/></svg>
+      <h2 class="rsvp-title">
+        <span class="latin">RSVP</span><span class="rsvp-sep" aria-hidden="true">｜</span><span class="word" data-lang="ja">ご返信</span><span class="word" data-lang="vi">Phản hồi</span>
+      </h2>
+      <div class="orn" aria-hidden="true"><svg viewBox="-9 -9 18 18"><use href="#cv-flower"/></svg></div>
+
+      <p class="deadline" data-lang="ja">ご返信は 2026年8月20日 までにお願いいたします</p>
+      <p class="deadline" data-lang="vi">Vui lòng phản hồi trước ngày 20.08.2026</p>
+
+      <a class="btn" href="https://docs.google.com/forms/d/e/1FAIpQLSdjcVpRcndUuzTJYzWMggxJ6jVe0MAUcXm3Dv86JEfPuFtASg/viewform?hl=ja" id="rsvpLink" target="_blank" rel="noopener">
+        <span data-lang="ja">出欠を回答する</span><span data-lang="vi">Gửi phản hồi</span>
+      </a>
+
+      <p class="contact">
+        <span data-lang="ja">LINE またはお電話でも承ります</span><span data-lang="vi">Vui lòng phản hồi qua LINE hoặc số điện thoại</span><br>
+        <a href="tel:08035811271">080-3581-1271</a>
+      </p>
+    </div>
+  </div>
+</section>
+
+<section class="wrap closing">
+  <!-- 富士と鳥居（桜・蓮は元画像の切り抜きを配置） -->
+  <div class="scene fujiscape">
+    <svg viewBox="0 0 480 220" role="img" aria-label="富士山と鳥居 / Núi Phú Sĩ và cổng torii">
+      <g filter="url(#wcSoft)">
+        <path d="M108 184 L226 44 C 234 35, 246 35, 254 44 L 372 184 Z" fill="url(#fujiGrad)" opacity=".92"/>
+        <path d="M170 116 C 200 128, 262 130, 306 114 L 372 184 L 108 184 Z" fill="#CBD0DB" opacity=".35"/>
+        <path d="M202 76 C 212 88, 224 90, 234 82 C 242 90, 256 90, 266 80 L 254 44 C 246 35, 234 35, 226 44 Z" fill="#FCFBF6"/>
+        <path d="M210 80 C 216 92, 221 98, 224 110 M244 84 C 248 96, 251 102, 251 114" stroke="#FCFBF6" stroke-width="5" fill="none" stroke-linecap="round"/>
+      </g>
+      <!-- 山裾の霞 -->
+      <g fill="#F0EADB">
+        <ellipse cx="200" cy="182" rx="150" ry="12" opacity=".9"/>
+        <ellipse cx="330" cy="192" rx="130" ry="10" opacity=".8"/>
+        <ellipse cx="140" cy="196" rx="110" ry="9" opacity=".7"/>
+      </g>
+      <!-- 鳥居 -->
+      <g filter="url(#wc)">
+        <path d="M312 122 Q 355.5 111 399 122 L 396 130 Q 355.5 121 315 130 Z" fill="#A55444"/>
+        <path d="M308 122 q -3 -2.5 -4 -6 M403 122 q 3 -2.5 4 -6" stroke="#A55444" stroke-width="3" fill="none" stroke-linecap="round"/>
+        <rect x="322" y="138" width="67" height="5.5" fill="#B85C48"/>
+        <g fill="#B85C48">
+          <path d="M330 128 L338 128 L336.5 186 L331.5 186 Z"/>
+          <path d="M373 128 L381 128 L379.5 186 L374.5 186 Z"/>
+        </g>
+        <rect x="352" y="128" width="6.5" height="10" fill="#B85C48"/>
+        <path d="M328 186 q 27.5 4 55 0 v2.6 q -27.5 4 -55 0 z" fill="#C2C7CC" opacity=".55"/>
+      </g>
+      <g fill="#B85C48" opacity=".14">
+        <path d="M331.5 190 L336.5 190 L338 214 L330 214 Z"/>
+        <path d="M374.5 190 L379.5 190 L381 214 L373 214 Z"/>
+      </g>
+      <!-- 水面 -->
+      <g fill="none" stroke-linecap="round">
+        <path d="M70 190 H410" stroke="url(#waterFade)" stroke-width="1"/>
+        <path d="M120 200 H370" stroke="url(#waterFade)" stroke-width="1" opacity=".65"/>
+        <path d="M170 209 H330" stroke="url(#waterFade)" stroke-width="1" opacity=".4"/>
+      </g>
+    </svg>
+    <svg class="ov sk-r" viewBox="0 0 100 90" width="100" height="90" aria-hidden="true"><use href="#cv-sakura-cluster"/></svg>
+    <svg class="ov sk-l" viewBox="0 0 100 90" width="100" height="90" aria-hidden="true"><use href="#cv-sakura-cluster"/></svg>
+    <svg class="ov lo-l" viewBox="0 0 360 270" width="360" height="270" aria-hidden="true"><use href="#cv-lotus"/></svg>
+  </div>
+
+  <svg class="seal" viewBox="0 0 100 100" role="img" aria-label="囍">
+    <circle cx="50" cy="50" r="46" fill="url(#goldGrad)"/>
+    <circle cx="50" cy="50" r="39" fill="none" stroke="rgba(255,255,255,.35)" stroke-width="1"/>
+    <text x="50" y="50" text-anchor="middle" dominant-baseline="central"
+          font-family="'Shippori Mincho B1',serif" font-size="42" fill="#F7F3EC">囍</text>
+  </svg>
+
+</section>
+
+</main>
+
+<footer>RYOTA &amp; LAN ANH — 20.09.2026 — HẢI PHÒNG, VIỆT NAM</footer>
+
+<script>
+(function(){
+  // ===== 出欠回答フォームの URL(変更する場合はここを差し替え) =====
+  var RSVP_FORM = "https://docs.google.com/forms/d/e/1FAIpQLSdjcVpRcndUuzTJYzWMggxJ6jVe0MAUcXm3Dv86JEfPuFtASg/viewform";
+  function rsvpUrl(l){ return RSVP_FORM + "?hl=" + (l === "vi" ? "vi" : "ja"); }
+
+  var html = document.documentElement;
+  var saved = null; try{ saved = localStorage.getItem("wedding-lang"); }catch(e){}
+  var initial = saved || (navigator.language.indexOf("vi") === 0 ? "vi" : "ja");
+  setLang(initial);
+
+  function setLang(l){
+    html.lang = l;
+    document.querySelectorAll("[data-set-lang]").forEach(function(b){
+      b.setAttribute("aria-pressed", String(b.dataset.setLang === l));
+    });
+    var rsvpLink = document.getElementById("rsvpLink");
+    if (rsvpLink){
+      rsvpLink.href = rsvpUrl(l);
+      rsvpLink.setAttribute("hreflang", l);
+    }
+    try{ localStorage.setItem("wedding-lang", l); }catch(e){}
+  }
+  document.querySelectorAll("[data-set-lang]").forEach(function(b){
+    b.addEventListener("click", function(){ setLang(b.dataset.setLang); });
+  });
+
+  // 水引の吊り紐を枠上端から結びまで伸ばす
+  function fitHang(){
+    var hang = document.querySelector(".cv-hang");
+    var knot = document.querySelector(".cv-knot");
+    if(!hang || !knot) return;
+    var hero = document.querySelector(".hero").getBoundingClientRect();
+    var k = knot.getBoundingClientRect();
+    var h = Math.max(36, k.top - hero.top - 17 + 16);
+    hang.style.height = h + "px";
+  }
+  fitHang();
+  window.addEventListener("resize", fitHang);
+  if(document.fonts && document.fonts.ready) document.fonts.ready.then(fitHang);
+
+  // 円紋の目盛り
+  var ticks = document.getElementById("ticks");
+  var NS = "http://www.w3.org/2000/svg";
+  for (var i = 0; ticks && i < 48; i++){
+    var a = i / 48 * Math.PI * 2;
+    var r1 = 172, r2 = i % 4 === 0 ? 160 : 166;
+    var ln = document.createElementNS(NS, "line");
+    ln.setAttribute("x1", 200 + r1 * Math.cos(a)); ln.setAttribute("y1", 200 + r1 * Math.sin(a));
+    ln.setAttribute("x2", 200 + r2 * Math.cos(a)); ln.setAttribute("y2", 200 + r2 * Math.sin(a));
+    ticks.appendChild(ln);
+  }
+
+  // スクロールで各セクションをふわりと表示
+  document.querySelectorAll("main section").forEach(function(s){ s.classList.add("reveal"); });
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if(e.isIntersecting){ e.target.classList.add("in"); io.unobserve(e.target); }
+    });
+  },{threshold:.14});
+  document.querySelectorAll(".reveal").forEach(function(el){ io.observe(el); });
+})();
+</script>
+</body>
+</html>
