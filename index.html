@@ -239,6 +239,11 @@ html[lang="vi"] .names .nm{font-family:var(--serif-jp)}
 
 /* ---------- あいさつ ---------- */
 .greeting{text-align:center}
+.greeting .message{
+  display:inline-block;text-align:left;
+  max-width:100%;margin:0 auto;
+}
+.greeting .message p{text-indent:0}
 .greeting p{margin:0 0 1.1em;color:var(--ink)}
 .greeting .sig{
   margin-top:34px;font-family:var(--serif-latin);font-size:20px;
@@ -701,6 +706,7 @@ footer{
   <h2 data-lang="ja">謹んでご招待申し上げます</h2>
   <h2 data-lang="vi">Trân trọng kính mời</h2>
 
+  <div class="message">
   <div data-lang="ja">
     <p>皆さまにはご健勝のこととお慶び申し上げます</p>
     <p>このたび 私たちは結婚式を挙げることとなりました</p>
@@ -712,6 +718,7 @@ footer{
     <p>Chúng tôi trân trọng kính mời Quý vị đến tham dự<br>Lễ Thành Hôn của chúng tôi.</p>
     <p>Hai chúng tôi lớn lên ở hai quê hương — Nhật Bản và Việt Nam —<br>và nay trở thành một gia đình.</p>
     <p>Sự hiện diện của Quý vị là niềm vinh hạnh lớn lao đối với chúng tôi.</p>
+  </div>
   </div>
 
   <p class="sig">
